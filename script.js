@@ -44,4 +44,4 @@ calcular(n1, n2);
         }   
     }
     contagem_regressiva(i);
-//Encerramento do exercício 2
+//Encerramento do exercício 3
