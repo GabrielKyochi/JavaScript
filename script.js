@@ -32,3 +32,16 @@
     }
 calcular(n1, n2);
 // Encerramento do exercício 2
+
+// Exercício 3 - Laço While para Contagem Regressiva:
+    let i = 10;
+    
+    function contagem_regressiva(i){
+        console.log("A contagem regresiva de 10 até 1 é:")
+        while(i > 0){
+            console.log(i);
+            i--;
+        }   
+    }
+    contagem_regressiva(i);
+//Encerramento do exercício 2
