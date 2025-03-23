@@ -8,3 +8,10 @@
         }
     }
     verificar_par(numero);
+// Encerramento do exercício 1
+
+// Exercício 2 - Operações Matemáticas Simples:
+
+    function calcular(n1, n2){
+        
+    }
