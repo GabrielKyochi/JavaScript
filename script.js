@@ -68,3 +68,6 @@ function contar_caracteres(palavra){
 contar_caracteres(palavra);
 // Encerramento do exercício 5
 
+// Exercício 6 - Acessando Propriedades de Objetos:
+
+// Encerramento do exercício 6
