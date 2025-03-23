@@ -2,7 +2,7 @@
     let numero = prompt("Escreva um valor para verificar se ele é par ou ímpar:");
 
     function verificar_par(numero){
-        if(numero %2 === 0){
+        if(numero % 2 === 0){
             console.log(numero + " é um valor par.");
         } else{
             console.log(numero + " é um valor ímpar.");
@@ -21,14 +21,14 @@
         const multiplicacao = (n1 * n2);
         let divisao = 0;
         if(n2 === 0){
-            console.log("Essa divisão é impossível!");
+            console.log("A divisão dos valores é impossível!");
         } else{
             divisao = (n1 / n2);
+            console.log("O resultado da divisão dos valores é: " + divisao);
         }
         console.log("O resultado da soma dos valores é: " + soma);
         console.log("O resultado da subtração dos valores é: " + subtracao);
         console.log("O resultado da multiplicação dos valores é: " + multiplicacao);
-        console.log("O resultado da divisão dos valores é: " + divisao);
     }
 calcular(n1, n2);
 // Encerramento do exercício 2
@@ -44,4 +44,16 @@ calcular(n1, n2);
         }   
     }
     contagem_regressiva(i);
-//Encerramento do exercício 3
+// Encerramento do exercício 3
+
+// Exercício 4 - Manipulação de Strings:
+let palavra_inversa = prompt("Escreva uma palavra para ser invertida:");
+function inverter_texto(palavra_inversa){
+    separar_letras = palavra_inversa.split('');
+    inverter_letras = separar_letras.reverse();
+    juntar_letras = inverter_letras.join('');
+    console.log("A palavra escolhida, ao inverter é: " + juntar_letras);
+}
+inverter_texto(palavra_inversa);
+// Encerramento do exercício 4
+
