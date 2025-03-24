@@ -86,3 +86,15 @@ function mensagem_personalizada(nome, mensagem){
 }
 mensagem_personalizada(nome, mensagem);
 // Encerramento do exercício 7
+
+// Exercício 8 - Calculadora de Média:
+let primeiro_numero = parseFloat(prompt("Escreva um primeiro número para calcular uma média:"));
+let segundo_numero = parseFloat(prompt("Escreva um segundo número para calcular uma média:"));
+let terceiro_numero = parseFloat(prompt("Escreva um terceiro número para calcular uma média:"));
+
+function media(primeiro_numero, segundo_numero, terceiro_numero){
+    const resultado = (primeiro_numero + segundo_numero + terceiro_numero / 3);
+    console.log("A média dos 3 números escolhidos é: " + resultado);
+}
+media(primeiro_numero, segundo_numero, terceiro_numero);
+// Encerramento do exercício 8
