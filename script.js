@@ -98,3 +98,16 @@ function media(primeiro_numero, segundo_numero, terceiro_numero){
 }
 media(primeiro_numero, segundo_numero, terceiro_numero);
 // Encerramento do exercício 8
+
+// Exercíicio 9 - Laço for com Condição
+function laco_por_condicao(){
+    for(let i = 1; i <= 20; i++){
+        if(i % 3 === 0){
+            console.log(i + " -" + " Esse valor é múltiplo de 3!");
+        } else{
+            console.log(i + " -" + " Esse valor não é múltiplo de 3!");
+        }
+    }
+}
+laco_por_condicao()
+// Encerramento do exercício 9
