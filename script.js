@@ -126,3 +126,19 @@ function verificar_palindromo(palavra_palindroma){
 }
 verificar_palindromo(palavra_palindroma);
 // Encerramento do exercício 10
+
+// Exercício 11 - Verificação de Número Positivo ou Negativo:
+let numero_positivo_negativo = parseFloat(prompt("Escreva um número para verificar se ele é positivo ou negativo:"));
+
+function verificar_sinal(numero_positivo_negativo){
+    if(numero_positivo_negativo === 0){
+        console.log("O seu número é 0!");
+    }
+    if(numero_positivo_negativo < 0){
+        console.log("O seu número é negativo!");
+    } else{
+        console.log("O seu número é positivo!");
+    }
+}
+verificar_sinal(numero_positivo_negativo);
+// Encerramento do exercício 11
