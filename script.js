@@ -76,3 +76,13 @@ ano: 2025,
 };
 console.log("O modelo do carro é: " + carro.modelo);
 // Encerramento do exercício 6
+
+// Exercício 7 - Função com Parâmetros Opcionais:
+let nome = prompt("Escreva um nome para ser mostrado na mensagem personalizada:")
+let mensagem = prompt("Escreva uma mensagem personalizada:")
+
+function mensagem_personalizada(nome, mensagem){
+    console.log("Olá! " + nome + ", " + mensagem);
+}
+mensagem_personalizada(nome, mensagem);
+// Encerramento do exercício 7
