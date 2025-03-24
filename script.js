@@ -145,5 +145,11 @@ verificar_sinal(numero_positivo_negativo);
 // Encerramento do exercício 11
 
 // Exercício 12 - Função para Converter Celsius em Fahrenheit:
+let valor_em_celcius = prompt("Escreva um valor em graus celcius para converter em fahrenheit:")
 
+function converter_temperatura(valor_em_celcius){
+    const valor_em_fahrenheit = (valor_em_celcius * 9/5 + 32);
+    console.log("O valor escolhido em fahrenheit é: " + valor_em_fahrenheit);
+}
+converter_temperatura(valor_em_celcius);
 // Encerramento do exercício 12
