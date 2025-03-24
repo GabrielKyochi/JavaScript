@@ -113,5 +113,16 @@ laco_por_condicao()
 // Encerramento do exercício 9
 
 // Exercício 10 -  Verificação de Palavra Palíndroma:
-
+let palavra_palindroma = prompt("Escreva uma palavra para verificar se ela é palíndroma");
+// Eu não consegui realizar essa questão por conta própria, por isso ela está incompleta.
+function verificar_palindromo(palavra_palindroma){
+    separar_letras = palavra_palindroma.split('');
+    inverter_letras = separar_letras.reverse();
+    if(separar_letras = inverter_letras){
+        console.log("Essa palavra é palíndroma!");
+    } else{
+        console.log("Essa palavra não é palíndroma!");
+    }
+}
+verificar_palindromo(palavra_palindroma);
 // Encerramento do exercício 10
