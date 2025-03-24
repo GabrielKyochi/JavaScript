@@ -69,5 +69,10 @@ contar_caracteres(palavra);
 // Encerramento do exercício 5
 
 // Exercício 6 - Acessando Propriedades de Objetos:
-
+let carro = {
+marca: "Porshe",
+modelo: "Toyota",
+ano: 2025,
+};
+console.log("O modelo do carro é: " + carro.modelo);
 // Encerramento do exercício 6
