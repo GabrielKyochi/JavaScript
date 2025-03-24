@@ -153,3 +153,15 @@ function converter_temperatura(valor_em_celcius){
 }
 converter_temperatura(valor_em_celcius);
 // Encerramento do exercício 12
+
+// Exercício 13 - Laço While para Somatório:
+let resultado = (0);
+
+function while_somatorio(){
+for(let i = 1; i <= 100; i++){
+   resultado = (i * (1 + 100) / 2);
+}
+console.log("O valor da soma de todos os valores de 1 até 100 é: " + resultado);
+}
+while_somatorio();
+// Encerramento do exercício 13
