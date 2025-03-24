@@ -99,7 +99,7 @@ function media(primeiro_numero, segundo_numero, terceiro_numero){
 media(primeiro_numero, segundo_numero, terceiro_numero);
 // Encerramento do exercício 8
 
-// Exercíicio 9 - Laço for com Condição
+// Exercício 9 - Laço for com Condição
 function laco_por_condicao(){
     for(let i = 1; i <= 20; i++){
         if(i % 3 === 0){
@@ -111,3 +111,7 @@ function laco_por_condicao(){
 }
 laco_por_condicao()
 // Encerramento do exercício 9
+
+// Exercício 10 -  Verificação de Palavra Palíndroma:
+
+// Encerramento do exercício 10
