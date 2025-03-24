@@ -114,11 +114,12 @@ laco_por_condicao()
 
 // Exercício 10 -  Verificação de Palavra Palíndroma:
 let palavra_palindroma = prompt("Escreva uma palavra para verificar se ela é palíndroma");
-// Eu não consegui realizar essa questão por conta própria, por isso ela está incompleta.
+
 function verificar_palindromo(palavra_palindroma){
     separar_letras = palavra_palindroma.split('');
     inverter_letras = separar_letras.reverse();
-    if(separar_letras = inverter_letras){
+    juntar_letras = inverter_letras.join('');
+    if(juntar_letras == palavra_palindroma){
         console.log("Essa palavra é palíndroma!");
     } else{
         console.log("Essa palavra não é palíndroma!");
@@ -142,3 +143,7 @@ function verificar_sinal(numero_positivo_negativo){
 }
 verificar_sinal(numero_positivo_negativo);
 // Encerramento do exercício 11
+
+// Exercício 12 - Função para Converter Celsius em Fahrenheit:
+
+// Encerramento do exercício 12
