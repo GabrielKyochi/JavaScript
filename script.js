@@ -202,3 +202,16 @@ function saudacao(mensagem_saudacao, nome_saudacao){
 }
 saudacao(mensagem_saudacao, nome_saudacao);
 // Encerramento do exercício 17
+
+// Exercício 18 - Verificação de Nota:
+let nota = prompt("Escreva uma nota para ver se você foi aprovado ou reprovado:");
+
+function verificar_aprovacao(nota){
+    if(nota >= 6){
+        console.log("Você foi aprovado!");
+    } else{
+        console.log("Você foi reprovado!");
+}
+}
+verificar_aprovacao(nota);
+// Encerramento do exercício 18
