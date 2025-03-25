@@ -234,5 +234,11 @@ contar_vogais(palavra_vogais);
 // Encerramento do exercício 20
 
 // Exercício 21 - Soma dos Elementos de um Array:
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+function somar_array(){
+    let soma_array = (arr[0] + arr[1] + arr[2] + arr[3] + arr[4] + arr[5] + arr[6] + arr[7] + arr[8] + arr[9]);
+    console.log("A soma de todos os valores do array é: " + soma_array);
+}
+somar_array();
 // Encerramento do exercício 21
