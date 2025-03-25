@@ -231,7 +231,7 @@ verificar_aprovacao(nota);
 let palavra_vogais = prompt("Escreva uma palavra para contar quantas vogais ela possuí:");
 
 function contar_vogais(palavra_vogais){
-// . . . Em processo de fazer.....
+
 }
 contar_vogais(palavra_vogais);
 // Encerramento do exercício 20
@@ -266,15 +266,18 @@ for(let i = 2; i <= 20; i++){
 // Encerramento do exercício 23
 
 // Exercício 24 -  Capitalizar Primeira Letra:
-let palavra_minuscula = prompt("Escreva uma palavra com todas as letras minúsculas:");
+var palavra_minuscula = prompt("Escreva uma palavra com todas as letras minúsculas:");
 
 function capitalizar(palavra_minuscula){
-
+    console.log("A palavra escolhida sem a letra maíuscula no começo é: " + palavra_minuscula);
+    var letra_minuscula = (palavra_minuscula[0].toUpperCase());
+    console.log("A palavra escolhida com a letra maíuscula no começo é: " + letra_minuscula + palavra_minuscula.substring(1));
 }
 capitalizar(palavra_minuscula);
 // Encerramento do exercício 24
 
 // Exercício 25 - Verificação de Ano Bissexto:
+// Verificar essa parada do ano bissexto
 let escrever_ano = prompt("Escreva um ano para verificar se ele é bissexto:");
 
 function ano_bissexto(escrever_ano){
