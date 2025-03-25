@@ -165,3 +165,25 @@ console.log("O valor da soma de todos os valores de 1 até 100 é: " + resultado
 }
 while_somatorio();
 // Encerramento do exercício 13
+
+// Exercício 14 - Substituição de Palavras em String:
+let palavra_azul = parseFloat("azul");
+
+function substituir_palavra(palavra_azul){ 
+    
+}
+// Encerramento do exercício 14
+
+// Exercício 15 - Verificação de Tamanho de String:
+let string_tamanho = prompt("Escreva uma palavra para ver se ela passa de 10 caracteres:");
+
+function verificar_tamanho(string_tamanho){
+    let quantidade_caracteres = string_tamanho.length;
+    if(quantidade_caracteres > 10){
+        console.log("A sua palavra possuí mais do que 10 caracteres!");
+    } else{
+        console.log("A sua palavra não possuí mais do que 10 caracteres.");
+    }
+}
+verificar_tamanho(string_tamanho);
+// Encerramento do exercício 15
