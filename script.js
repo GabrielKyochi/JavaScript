@@ -167,11 +167,14 @@ while_somatorio();
 // Encerramento do exercício 13
 
 // Exercício 14 - Substituição de Palavras em String:
-let palavra_azul = parseFloat("azul");
-// Ainda não consegui compreender essa questão.
+var palavra_azul = "azul";
+
 function substituir_palavra(palavra_azul){ 
-    
+    console.log("A palavra inicial é: " + palavra_azul);
+    palavra_azul = palavra_azul.replace("azul", "vermelho");
+    console.log("A palavra agora é: " + palavra_azul);
 }
+substituir_palavra(palavra_azul);
 // Encerramento do exercício 14
 
 // Exercício 15 - Verificação de Tamanho de String:
