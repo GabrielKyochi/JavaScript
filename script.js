@@ -194,3 +194,5 @@ console.log("A terceira fruta presente no array é: " + arr[2]);
 // Encerramento do exercício 16
 
 // Exercício 17 - Função com Valor Padrão em Dois Parâmetros:
+
+// Encerramento do exercício 17
