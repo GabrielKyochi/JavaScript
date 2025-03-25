@@ -194,5 +194,11 @@ console.log("A terceira fruta presente no array é: " + arr[2]);
 // Encerramento do exercício 16
 
 // Exercício 17 - Função com Valor Padrão em Dois Parâmetros:
+let mensagem_saudacao = "Bem vindo(a)";
+let nome_saudacao = prompt("Escreva o seu nome para uma saudação:");
 
+function saudacao(mensagem_saudacao, nome_saudacao){
+    console.log(mensagem_saudacao + (" ") + nome_saudacao);
+}
+saudacao(mensagem_saudacao, nome_saudacao);
 // Encerramento do exercício 17
