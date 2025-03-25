@@ -261,3 +261,16 @@ for(let i = 2; i <= 20; i++){
     }
 }
 // Encerramento do exercício 23
+
+// Exercício 24 -  Capitalizar Primeira Letra:
+let palavra_minuscula = prompt("Escreva uma palavra com todas as letras minúsculas:");
+
+function capitalizar(palavra_minuscula){
+
+}
+capitalizar(palavra_minuscula);
+// Encerramento do exercício 24
+
+// Exercício 25 - Verificação de Ano Bissexto:
+
+// Encerramento do exercício 25
