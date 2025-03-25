@@ -242,3 +242,14 @@ function somar_array(){
 }
 somar_array();
 // Encerramento do exercício 21
+
+// Exercício 22 - Função para Dobrar Números:
+let numero_para_dobrar = prompt("Escreva um valor para dobra-lo:");
+var numero_dobrado = 0
+
+function dobrar_numero(numero_para_dobrar){
+    var numero_dobrado = (numero_para_dobrar * 2);
+    console.log("O valor dobrado é: " + numero_dobrado);
+}
+dobrar_numero(numero_para_dobrar);
+// Encerramento do exercício 22
