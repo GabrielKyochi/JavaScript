@@ -168,7 +168,7 @@ while_somatorio();
 
 // Exercício 14 - Substituição de Palavras em String:
 let palavra_azul = parseFloat("azul");
-
+// Ainda não consegui compreender essa questão.
 function substituir_palavra(palavra_azul){ 
     
 }
@@ -223,3 +223,16 @@ verificar_aprovacao(nota);
         }
     }
 // Encerramento do exercício 19
+
+// Exercício 20 - Contagem de Vogais:
+let palavra_vogais = prompt("Escreva uma palavra para contar quantas vogais ela possuí:");
+
+function contar_vogais(palavra_vogais){
+// . . . Em processo de fazer.....
+}
+contar_vogais(palavra_vogais);
+// Encerramento do exercício 20
+
+// Exercício 21 - Soma dos Elementos de um Array:
+
+// Encerramento do exercício 21
