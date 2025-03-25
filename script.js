@@ -272,5 +272,14 @@ capitalizar(palavra_minuscula);
 // Encerramento do exercício 24
 
 // Exercício 25 - Verificação de Ano Bissexto:
+let escrever_ano = prompt("Escreva um ano para verificar se ele é bissexto:");
 
+function ano_bissexto(escrever_ano){
+    if(escrever_ano % 4 === 0){
+        console.log("O ano " + escrever_ano + " é um ano bissexto!");
+    } else{
+        console.log("O ano " + escrever_ano + " não é um ano bissexto!");
+    }
+}
+ano_bissexto(escrever_ano);
 // Encerramento do exercício 25
