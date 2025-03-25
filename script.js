@@ -253,3 +253,11 @@ function dobrar_numero(numero_para_dobrar){
 }
 dobrar_numero(numero_para_dobrar);
 // Encerramento do exercício 22
+
+// Exercício 23 - Laço While para Contagem de Pares:
+for(let i = 2; i <= 20; i++){
+    if(i % 2 === 0){
+        console.log(i);
+    }
+}
+// Encerramento do exercício 23
