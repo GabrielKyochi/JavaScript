@@ -229,9 +229,15 @@ verificar_aprovacao(nota);
 
 // Exercício 20 - Contagem de Vogais:
 let palavra_vogais = prompt("Escreva uma palavra para contar quantas vogais ela possuí:");
+let quantidade_vogais = 0;
 
 function contar_vogais(palavra_vogais){
-
+    for(let i = 0; i < palavra_vogais.length; i++){
+        if(palavra_vogais[i] == "a" || palavra_vogais[i] == "A" || palavra_vogais[i] == "e" || palavra_vogais[i] == "E" || palavra_vogais[i] == "i" || palavra_vogais[i] == "I" || palavra_vogais[i] == "o" || palavra_vogais[i] == "O" || palavra_vogais[i] == "u" || palavra_vogais[i] == "U"){
+            quantidade_vogais++;
+        }
+    }
+    console.log("A quantidade de vogais presentes na sua palavra é: " + quantidade_vogais);
 }
 contar_vogais(palavra_vogais);
 // Encerramento do exercício 20
